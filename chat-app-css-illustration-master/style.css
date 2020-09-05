@@ -1,0 +1,347 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: 'Rubik', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(270, 20%, 96%);
+}
+
+.main-content {
+    position: relative;
+    z-index: 2;
+    bottom: 800px;
+}
+
+
+.chat-app {
+    width:300px;
+    height: 550px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 0px 0px;
+    margin: 30px auto;
+    border: 5px solid white;
+    grid-area: chat;
+    position: relative;
+}
+
+.dog, .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    align-self: center;
+}
+.dog {
+    width: 50px;
+    height: 50px;
+}
+.heading {
+    background-image: linear-gradient( 90deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+
+    padding: 0px 0px 10px;
+    border-radius: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 95%;
+    margin: 5% auto 0%;
+    margin-bottom: 0;
+
+}
+.main-heading {
+    display: flex;
+}
+
+.box {
+    width: 70%;
+    height: 25px;
+    background-color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 10px;
+
+    
+}
+.arrow {
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+    align-self: center;
+    padding: 10px;
+}
+.heading small, h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: white;
+}
+
+.status {
+    margin-right: 50px;
+    align-self: center;
+}
+.avatar {
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid white;
+}
+
+hr {
+
+    border: 5px dotted white;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    width: 1%;  
+}
+
+.chat {
+    background-color:hsl(270, 20%, 96%) ;
+    width: 95%;
+
+    margin: 0 auto;
+    padding: 5px 5px;
+    border-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+
+
+
+}
+.chat p {
+    width: 50%;
+    font-size: 7px;
+}
+
+
+.left-chat p {
+    color: hsl(276, 55%, 52%);
+    background-color:hsl(278, 66%, 94%);
+    padding: 10px 8px;
+    border-radius: 15px; 
+    border-bottom-left-radius: 5px;
+}
+.right-chat {
+display: flex;
+flex-flow: row wrap;
+justify-content: flex-end;
+text-align: right;
+}
+
+.dog-images {
+    flex: 0 0 100%;
+}
+
+.right-chat p {
+    width: 100%;
+    text-align: left;
+    background-color:hsl(0, 0%, 100%);
+    color: hsl(270, 7%, 64%);
+    padding: 10px 8px;
+    border-radius: 15px; 
+    border-bottom-right-radius: 5px;
+    margin-bottom: 0;
+}
+
+.pricing p {
+    background-image: linear-gradient( 90deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    color: white;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 8px;
+    padding: 5px 5px;
+    margin-bottom: 2px;
+}
+
+.p-two {
+    text-align: left;
+    align-self: center;
+    justify-self: flex-start;
+}
+.amount {
+    font-weight: 700;
+    font-size: 12px;
+    align-self: center;
+    justify-self: space-between;
+
+
+
+}
+
+
+.reply {
+    background-color: white;
+    border-radius: 30px;
+    width: 95%;
+    height: 30px;
+
+    margin: 10px auto 0;
+    text-align: left;
+    color: hsl(206, 6%, 79%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+
+}
+
+.reply small {
+    align-self: center;
+}
+
+.circle {
+    width: 12%;
+    height: 90%;
+    text-align: center;
+    margin: auto 0;
+
+    border-radius: 50%;
+    background-color:hsl(271, 36%, 24%);
+    align-self: center;
+}
+.arrow-right {
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+label{
+    border: 12px solid hsl(293, 100%, 63%);
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.description {
+    margin: 0 auto;
+    text-align: center;
+    grid-area: description;
+}
+h1 {
+    color: hsl(271, 36%, 24%);
+    font-weight: 700;
+}
+
+.description p {
+    margin: 0 auto;
+    color: hsl(270, 7%, 64%);
+    width: 70%;
+}
+
+.curve-1 {
+
+    width: 40vw;
+    height: 80vh;
+    background-image: linear-gradient( 200deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 20%;
+    grid-area: curve-1;
+
+}
+
+.curve-2 {
+    width: 40vw;
+    height: 80vh;
+    background-color: hsl(246, 26%, 93%);
+    border-top-right-radius: none;
+    border-top-left-radius: 50% 50%;   
+    float: right;
+    position: relative;
+    bottom: 1000px;
+
+}
+
+.attribution { font-size: 11px; text-align: center; margin: 100px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media only screen and (min-width: 778px) {
+
+    .main-content {
+        position: relative;
+        z-index: 2;
+        bottom: 600px;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "chat-app description";
+        justify-content: center;
+        align-content: center;
+    }
+
+
+    .description {
+        grid-area: description;
+        align-self: center;
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 600px;
+        font-size: 25px;
+        margin-left:100px;
+
+
+    }
+    .description h1 {
+
+        flex: 0 0 100%;
+        text-align: left;
+    }
+
+    .description p {
+        font-size: 30px;
+        flex: 0 0 100%;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .chat-app {
+        grid-area: chat-app;
+        justify-self:center;
+        align-self: flex-end;
+        margin-left: 100px;
+
+    }
+
+
+
+    .curve-1 {
+
+        width: 30vw;
+        height: 80vh;
+        background-image: linear-gradient( 200deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+        border-bottom-right-radius: 50% 50%;
+        border-bottom-left-radius: 50% 20%;
+        grid-area: curve-1;
+    
+    }
+    
+    .curve-2 {
+        width: 30vw;
+        height: 80vh;
+        background-color: hsl(253, 13%, 87%);
+        border-top-right-radius: 50% 20%;
+        border-top-left-radius: 50% 50%;    
+        float: right;
+        position: relative;
+        bottom: 1000px;
+    
+    }
+}
