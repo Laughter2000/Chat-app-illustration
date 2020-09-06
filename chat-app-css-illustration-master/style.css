@@ -17,12 +17,12 @@ body {
 .main-content {
     position: relative;
     z-index: 2;
-    bottom: 500px;
+    bottom: 800px;
 }
 
 
 .chat-app {
-    width:300px;
+    width:250px;
     height: 550px;
     background-color: white;
     border-radius: 40px;
@@ -273,7 +273,7 @@ h1 {
     .main-content {
         position: relative;
         z-index: 2;
-        bottom: 400px;
+        bottom: 600px;
     }
 
     .main-content {
