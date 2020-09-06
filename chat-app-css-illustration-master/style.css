@@ -255,7 +255,7 @@ h1 {
 .curve-2 {
     width: 40vw;
     height: 80vh;
-    background-color: hsl(246, 26%, 93%);
+    background-color: hsl(278, 66%, 94%);
     border-top-right-radius: none;
     border-top-left-radius: 50% 50%;   
     float: right;
@@ -335,7 +335,7 @@ h1 {
     .curve-2 {
         width: 30vw;
         height: 80vh;
-        background-color: hsl(253, 13%, 87%);
+        background-color: hsl(278, 66%, 94%);
         border-top-right-radius: 50% 20%;
         border-top-left-radius: 50% 50%;    
         float: right;
